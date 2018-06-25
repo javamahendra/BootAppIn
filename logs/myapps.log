@@ -1,0 +1,837 @@
+2018-06-18 16:11:21 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Starting DemoApplication on DESKTOP-CIT5B0T with PID 6272 (D:\BootAppIn-22-04-2018\target\classes started by Mahendra in D:\BootAppIn-22-04-2018)
+2018-06-18 16:11:21 [restartedMain] INFO  com.sathyatech.app.DemoApplication - No active profile set, falling back to default profiles: default
+2018-06-18 16:11:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-06-18 16:11:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-18 16:11:51 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-06-18 16:11:51 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-06-18 16:12:13 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.WebMvcConfig$$EnhancerBySpringCGLIB$$aa994136': running time (millis) = 16
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00016  100%  passwordEncoder
+
+2018-06-18 16:12:18 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.SwaggerConfig$$EnhancerBySpringCGLIB$$fe138e9e': running time (millis) = 46
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00046  100%  productApi
+
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-06-18 16:12:23 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_1
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_1
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_1
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_2
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_2
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_3
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_2
+2018-06-18 16:12:23 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_3
+2018-06-18 16:12:24 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_3
+2018-06-18 16:12:24 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_4
+2018-06-18 16:12:24 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_3
+2018-06-18 16:12:24 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_4
+2018-06-18 16:12:24 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_4
+2018-06-18 16:12:24 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_5
+2018-06-18 16:12:24 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_4
+2018-06-18 16:12:24 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_5
+2018-06-18 16:12:24 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_5
+2018-06-18 16:12:24 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Started DemoApplication in 65.529 seconds (JVM running for 70.481)
+2018-06-18 16:16:17 [http-nio-2025-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-18 16:16:18 [http-nio-2025-exec-1] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 8
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00008  100%  showLogin
+
+2018-06-18 16:16:20 [http-nio-2025-exec-5] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:16:23 [http-nio-2025-exec-6] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showRegister
+
+2018-06-18 16:16:24 [http-nio-2025-exec-8] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:16:49 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.validator.UserValidator': running time (millis) = 28
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00028  100%  validate
+
+2018-06-18 16:16:49 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 29
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00029  100%  saveUser
+
+2018-06-18 16:16:49 [http-nio-2025-exec-1] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 4
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00004  100%  showLogin
+
+2018-06-18 16:17:17 [http-nio-2025-exec-4] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.validator.UserValidator': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  validate
+
+2018-06-18 16:17:17 [http-nio-2025-exec-4] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 4
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00004  100%  saveUser
+
+2018-06-18 16:17:17 [http-nio-2025-exec-6] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:17:45 [http-nio-2025-exec-8] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.validator.UserValidator': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  validate
+
+2018-06-18 16:17:45 [http-nio-2025-exec-8] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  saveUser
+
+2018-06-18 16:17:45 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:17:50 [http-nio-2025-exec-2] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.validator.UserValidator': running time (millis) = 1
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00001  100%  validate
+
+2018-06-18 16:17:50 [http-nio-2025-exec-2] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 2
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00002  100%  saveUser
+
+2018-06-18 16:17:50 [http-nio-2025-exec-3] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:17:54 [http-nio-2025-exec-5] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:17:54 [http-nio-2025-exec-7] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:18:08 [http-nio-2025-exec-9] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sun.proxy.$Proxy132': running time (millis) = 516
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00516  100%  findByUserEmail
+
+2018-06-18 16:18:08 [http-nio-2025-exec-9] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.service.impl.UserDetailsServiceImpl': running time (millis) = 534
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00534  100%  loadUserByUsername
+
+2018-06-18 16:18:08 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:18:08 [http-nio-2025-exec-1] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:18:18 [http-nio-2025-exec-4] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sun.proxy.$Proxy132': running time (millis) = 4
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00004  100%  findByUserEmail
+
+2018-06-18 16:18:18 [http-nio-2025-exec-4] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.service.impl.UserDetailsServiceImpl': running time (millis) = 4
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00004  100%  loadUserByUsername
+
+2018-06-18 16:18:18 [http-nio-2025-exec-5] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:18:18 [http-nio-2025-exec-7] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:20:56 [http-nio-2025-exec-9] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sun.proxy.$Proxy132': running time (millis) = 9
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00009  100%  findByUserEmail
+
+2018-06-18 16:20:56 [http-nio-2025-exec-9] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.service.impl.UserDetailsServiceImpl': running time (millis) = 11
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00011  100%  loadUserByUsername
+
+2018-06-18 16:20:56 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:20:56 [http-nio-2025-exec-1] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:20:58 [http-nio-2025-exec-3] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showRegister
+
+2018-06-18 16:20:58 [http-nio-2025-exec-5] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:21:41 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Starting DemoApplication on DESKTOP-CIT5B0T with PID 6716 (D:\BootAppIn-22-04-2018\target\classes started by Mahendra in D:\BootAppIn-22-04-2018)
+2018-06-18 16:21:41 [restartedMain] INFO  com.sathyatech.app.DemoApplication - No active profile set, falling back to default profiles: default
+2018-06-18 16:21:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-06-18 16:21:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-18 16:21:50 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-06-18 16:21:50 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-06-18 16:22:00 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.WebMvcConfig$$EnhancerBySpringCGLIB$$569bc445': running time (millis) = 2
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00002  100%  passwordEncoder
+
+2018-06-18 16:22:04 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.SwaggerConfig$$EnhancerBySpringCGLIB$$aa1611ad': running time (millis) = 21
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00021  100%  productApi
+
+2018-06-18 16:22:06 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-06-18 16:22:06 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-06-18 16:22:07 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_1
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_1
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_1
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_2
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_2
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_3
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_2
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_3
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_3
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_4
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_3
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_4
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_4
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_5
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_4
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_5
+2018-06-18 16:22:07 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_5
+2018-06-18 16:22:07 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Started DemoApplication in 26.969 seconds (JVM running for 27.989)
+2018-06-18 16:22:07 [http-nio-2025-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-18 16:22:07 [http-nio-2025-exec-1] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 10
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00010  100%  showRegister
+
+2018-06-18 16:22:09 [http-nio-2025-exec-3] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:22:28 [http-nio-2025-exec-6] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.validator.UserValidator': running time (millis) = 12
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00012  100%  validate
+
+2018-06-18 16:22:28 [http-nio-2025-exec-6] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 13
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00013  100%  saveUser
+
+2018-06-18 16:22:28 [http-nio-2025-exec-8] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:22:55 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.validator.UserValidator': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  validate
+
+2018-06-18 16:22:55 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sun.proxy.$Proxy132': running time (millis) = 114
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00114  100%  findByUserEmail
+
+2018-06-18 16:22:55 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.service.impl.UserServiceImpl': running time (millis) = 130
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00130  100%  findUserByEmail
+
+2018-06-18 16:22:55 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sun.proxy.$Proxy143': running time (millis) = 58
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00058  100%  findByRoleName
+
+2018-06-18 16:22:55 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sun.proxy.$Proxy143': running time (millis) = 2
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00002  100%  findByRoleName
+
+2018-06-18 16:22:56 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sun.proxy.$Proxy132': running time (millis) = 208
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00208  100%  save
+
+2018-06-18 16:22:56 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.service.impl.UserServiceImpl': running time (millis) = 373
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00373  100%  saveUser
+
+2018-06-18 16:23:01 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.EmailConfig': running time (millis) = 5616
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+05616  100%  sendEmail
+
+2018-06-18 16:23:01 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 6182
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+06182  100%  saveUser
+
+2018-06-18 16:23:01 [http-nio-2025-exec-2] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:23:06 [http-nio-2025-exec-3] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:23:06 [http-nio-2025-exec-5] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:23:15 [http-nio-2025-exec-7] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sun.proxy.$Proxy132': running time (millis) = 26
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00026  100%  findByUserEmail
+
+2018-06-18 16:23:15 [http-nio-2025-exec-7] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.service.impl.UserDetailsServiceImpl': running time (millis) = 40
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00040  100%  loadUserByUsername
+
+2018-06-18 16:23:16 [http-nio-2025-exec-7] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.util.UomUtil': running time (millis) = 5
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00005  100%  getUomTypes
+
+2018-06-18 16:23:16 [http-nio-2025-exec-7] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UomController': running time (millis) = 18
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00018  100%  showRegister
+
+2018-06-18 16:23:22 [http-nio-2025-exec-1] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.multipart.UomMultipartController': running time (millis) = 9
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00009  100%  showMultipartPage
+
+2018-06-18 16:24:17 [http-nio-2025-exec-3] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.util.UomUtil': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+
+2018-06-18 16:24:17 [http-nio-2025-exec-3] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.multipart.UomMultipartController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+
+2018-06-18 16:24:31 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.multipart.UomMultipartController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showMultipartPage
+
+2018-06-18 16:24:32 [http-nio-2025-exec-3] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.util.UomUtil': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  getUomTypes
+
+2018-06-18 16:24:32 [http-nio-2025-exec-3] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UomController': running time (millis) = 2
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00002  100%  showRegister
+
+2018-06-18 16:24:58 [http-nio-2025-exec-3] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:25:01 [http-nio-2025-exec-4] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UserController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showLogin
+
+2018-06-18 16:25:08 [http-nio-2025-exec-1] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sun.proxy.$Proxy132': running time (millis) = 9
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00009  100%  findByUserEmail
+
+2018-06-18 16:25:08 [http-nio-2025-exec-1] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.service.impl.UserDetailsServiceImpl': running time (millis) = 12
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00012  100%  loadUserByUsername
+
+2018-06-18 16:25:09 [http-nio-2025-exec-9] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.util.UomUtil': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  getUomTypes
+
+2018-06-18 16:25:09 [http-nio-2025-exec-9] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.UomController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showRegister
+
+2018-06-18 16:25:12 [http-nio-2025-exec-10] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.multipart.UomMultipartController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  showMultipartPage
+
+2018-06-18 16:25:14 [http-nio-2025-exec-5] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.multipart.UomMultipartController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  importUoms
+
+2018-06-18 16:25:20 [http-nio-2025-exec-6] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.util.UomUtil': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+
+2018-06-18 16:25:20 [http-nio-2025-exec-6] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.multipart.UomMultipartController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+
+2018-06-18 16:26:48 [http-nio-2025-exec-7] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.util.UomUtil': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+
+2018-06-18 16:26:48 [http-nio-2025-exec-7] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.controller.multipart.UomMultipartController': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+
+2018-06-18 16:57:28 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Starting DemoApplication on DESKTOP-CIT5B0T with PID 1340 (D:\BootAppIn-22-04-2018\target\classes started by Mahendra in D:\BootAppIn-22-04-2018)
+2018-06-18 16:57:28 [restartedMain] INFO  com.sathyatech.app.DemoApplication - No active profile set, falling back to default profiles: default
+2018-06-18 16:57:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-06-18 16:57:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-18 16:57:37 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-06-18 16:57:37 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-06-18 16:57:38 [localhost-startStop-1] ERROR o.a.catalina.session.StandardManager - Exception loading sessions from persistent storage
+java.io.EOFException: null
+	at java.io.ObjectInputStream$PeekInputStream.readFully(Unknown Source)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(Unknown Source)
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source)
+	at java.io.ObjectInputStream.<init>(Unknown Source)
+	at org.apache.catalina.util.CustomObjectInputStream.<init>(CustomObjectInputStream.java:95)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:211)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5224)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-06-18 16:57:47 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.WebMvcConfig$$EnhancerBySpringCGLIB$$fd81ef4e': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  passwordEncoder
+
+2018-06-18 16:57:54 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.SwaggerConfig$$EnhancerBySpringCGLIB$$50fc3cb6': running time (millis) = 16
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00016  100%  productApi
+
+2018-06-18 16:57:57 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-06-18 16:57:57 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-06-18 16:57:57 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-06-18 16:57:58 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_1
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_1
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_1
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_2
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_2
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_3
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_2
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_3
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_3
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_4
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_3
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_4
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_4
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_5
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_4
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_5
+2018-06-18 16:57:58 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_5
+2018-06-18 16:57:58 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Started DemoApplication in 30.815 seconds (JVM running for 31.74)
+2018-06-18 16:58:14 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Starting DemoApplication on DESKTOP-CIT5B0T with PID 10440 (D:\BootAppIn-22-04-2018\target\classes started by Mahendra in D:\BootAppIn-22-04-2018)
+2018-06-18 16:58:14 [restartedMain] INFO  com.sathyatech.app.DemoApplication - No active profile set, falling back to default profiles: default
+2018-06-18 16:58:20 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-06-18 16:58:20 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-18 16:58:20 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-06-18 16:58:20 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-06-18 16:58:21 [localhost-startStop-1] ERROR o.a.catalina.session.StandardManager - Exception loading sessions from persistent storage
+java.io.EOFException: null
+	at java.io.ObjectInputStream$PeekInputStream.readFully(Unknown Source)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(Unknown Source)
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source)
+	at java.io.ObjectInputStream.<init>(Unknown Source)
+	at org.apache.catalina.util.CustomObjectInputStream.<init>(CustomObjectInputStream.java:95)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:211)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5224)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-06-18 16:58:30 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.WebMvcConfig$$EnhancerBySpringCGLIB$$5fe22a8c': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  passwordEncoder
+
+2018-06-18 16:58:34 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.SwaggerConfig$$EnhancerBySpringCGLIB$$b35c77f4': running time (millis) = 16
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00016  100%  productApi
+
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-06-18 16:58:37 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_1
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_1
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_1
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_2
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_2
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_3
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_2
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_3
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_3
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_4
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_3
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_4
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_4
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_5
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_4
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_5
+2018-06-18 16:58:37 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_5
+2018-06-18 16:58:37 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Started DemoApplication in 23.889 seconds (JVM running for 24.638)
+2018-06-18 16:59:22 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Starting DemoApplication on DESKTOP-CIT5B0T with PID 10440 (D:\BootAppIn-22-04-2018\target\classes started by Mahendra in D:\BootAppIn-22-04-2018)
+2018-06-18 16:59:22 [restartedMain] INFO  com.sathyatech.app.DemoApplication - No active profile set, falling back to default profiles: default
+2018-06-18 16:59:24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-06-18 16:59:24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-18 16:59:24 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-06-18 16:59:24 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-06-18 16:59:24 [localhost-startStop-1] ERROR o.a.catalina.session.StandardManager - Exception loading sessions from persistent storage
+java.io.EOFException: null
+	at java.io.ObjectInputStream$PeekInputStream.readFully(Unknown Source) ~[na:1.8.0_112]
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(Unknown Source) ~[na:1.8.0_112]
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[na:1.8.0_112]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[na:1.8.0_112]
+	at org.apache.catalina.util.CustomObjectInputStream.<init>(CustomObjectInputStream.java:95) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:211) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5224) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_112]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_112]
+2018-06-18 16:59:31 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Starting DemoApplication on DESKTOP-CIT5B0T with PID 1116 (D:\BootAppIn-22-04-2018\target\classes started by Mahendra in D:\BootAppIn-22-04-2018)
+2018-06-18 16:59:31 [restartedMain] INFO  com.sathyatech.app.DemoApplication - No active profile set, falling back to default profiles: default
+2018-06-18 16:59:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-06-18 16:59:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-18 16:59:38 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-06-18 16:59:38 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-06-18 16:59:38 [localhost-startStop-1] ERROR o.a.catalina.session.StandardManager - Exception loading sessions from persistent storage
+java.io.EOFException: null
+	at java.io.ObjectInputStream$PeekInputStream.readFully(Unknown Source)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(Unknown Source)
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source)
+	at java.io.ObjectInputStream.<init>(Unknown Source)
+	at org.apache.catalina.util.CustomObjectInputStream.<init>(CustomObjectInputStream.java:95)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:211)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5224)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-06-18 16:59:45 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.WebMvcConfig$$EnhancerBySpringCGLIB$$f62643a3': running time (millis) = 4
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00004  100%  passwordEncoder
+
+2018-06-18 16:59:48 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.SwaggerConfig$$EnhancerBySpringCGLIB$$49a0910b': running time (millis) = 16
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00016  100%  productApi
+
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-06-18 16:59:51 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_1
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_1
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_1
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_2
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_2
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_3
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_2
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_3
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_3
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_4
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_3
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_4
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_4
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_5
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_4
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_5
+2018-06-18 16:59:51 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_5
+2018-06-18 16:59:51 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Started DemoApplication in 20.57 seconds (JVM running for 21.379)
+2018-06-18 17:24:28 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Starting DemoApplication on DESKTOP-CIT5B0T with PID 1116 (D:\BootAppIn-22-04-2018\target\classes started by Mahendra in D:\BootAppIn-22-04-2018)
+2018-06-18 17:24:28 [restartedMain] INFO  com.sathyatech.app.DemoApplication - No active profile set, falling back to default profiles: default
+2018-06-18 17:24:46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-06-18 17:24:46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-18 17:24:47 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-06-18 17:24:47 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-06-18 17:24:47 [localhost-startStop-1] ERROR o.a.catalina.session.StandardManager - Exception loading sessions from persistent storage
+java.io.EOFException: null
+	at java.io.ObjectInputStream$PeekInputStream.readFully(Unknown Source) ~[na:1.8.0_112]
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(Unknown Source) ~[na:1.8.0_112]
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[na:1.8.0_112]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[na:1.8.0_112]
+	at org.apache.catalina.util.CustomObjectInputStream.<init>(CustomObjectInputStream.java:95) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:211) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5224) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_112]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_112]
+2018-06-18 17:24:58 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.WebMvcConfig$$EnhancerBySpringCGLIB$$f62643a3': running time (millis) = 6
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00006  100%  passwordEncoder
+
+2018-06-18 17:25:00 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.SwaggerConfig$$EnhancerBySpringCGLIB$$49a0910b': running time (millis) = 32
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00032  100%  productApi
+
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-06-18 17:25:02 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_1
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_1
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_1
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_2
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_2
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_3
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_2
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_3
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_3
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_4
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_3
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_4
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_4
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_5
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_4
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_5
+2018-06-18 17:25:02 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_5
+2018-06-18 17:25:02 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Started DemoApplication in 34.817 seconds (JVM running for 1532.207)
+2018-06-18 18:24:57 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Starting DemoApplication on DESKTOP-CIT5B0T with PID 1116 (D:\BootAppIn-22-04-2018\target\classes started by Mahendra in D:\BootAppIn-22-04-2018)
+2018-06-18 18:24:57 [restartedMain] INFO  com.sathyatech.app.DemoApplication - No active profile set, falling back to default profiles: default
+2018-06-18 18:25:18 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-06-18 18:25:18 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-18 18:25:19 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-06-18 18:25:19 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-06-18 18:25:20 [localhost-startStop-1] ERROR o.a.catalina.session.StandardManager - Exception loading sessions from persistent storage
+java.io.EOFException: null
+	at java.io.ObjectInputStream$PeekInputStream.readFully(Unknown Source) ~[na:1.8.0_112]
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(Unknown Source) ~[na:1.8.0_112]
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[na:1.8.0_112]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[na:1.8.0_112]
+	at org.apache.catalina.util.CustomObjectInputStream.<init>(CustomObjectInputStream.java:95) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:211) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5224) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_112]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_112]
+2018-06-18 18:25:29 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.WebMvcConfig$$EnhancerBySpringCGLIB$$f62643a3': running time (millis) = 0
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00000  �  passwordEncoder
+
+2018-06-18 18:25:31 [restartedMain] INFO  com.sathyatech.app.config.AppLogging - StopWatch 'com.sathyatech.app.config.SwaggerConfig$$EnhancerBySpringCGLIB$$49a0910b': running time (millis) = 16
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00016  100%  productApi
+
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-06-18 18:25:32 [restartedMain] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType org.springframework.ui.ModelMap
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_1
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_1
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_1
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_2
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_2
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_3
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_2
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_3
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_3
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_4
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_3
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_4
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_4
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_5
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAllUsingGET_4
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_5
+2018-06-18 18:25:32 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_5
+2018-06-18 18:25:32 [restartedMain] ERROR o.a.jasper.EmbeddedServletOptions - The scratchDir you specified: [C:\Users\Mahendra\AppData\Local\Temp\tomcat.4372348034459497067.2025\work\Tomcat\localhost\ROOT] is unusable.
+2018-06-18 18:25:32 [restartedMain] INFO  com.sathyatech.app.DemoApplication - Started DemoApplication in 35.475 seconds (JVM running for 5162.117)
